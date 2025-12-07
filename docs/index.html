@@ -1,1 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>AI Ethics Coach — Responsibility Assessment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
+<div class="container">
+  <h1>AI Ethics Assessment</h1>
+  <p class="warning">
+    This assessment evaluates responsibility — not intelligence.
+  </p>
+
+  <button id="btn-start">Begin Ethics Assessment</button>
+
+  <div id="scenario" class="hidden">
+    <p id="ethics-text"></p>
+
+    <label>Your spoken response is required.</label>
+    <textarea id="response" placeholder="Type notes if needed, but assessment is oral."></textarea>
+
+    <button id="btn-submit">Acknowledge Responsibility</button>
+  </div>
+
+  <p id="result"></p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
